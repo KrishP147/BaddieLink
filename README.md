@@ -1,6 +1,10 @@
 # BaddieIn
 
+**Top 8 @ GoOnHacks 2025.** [Devpost](https://devpost.com/software/baddielink)
+
 BaddieIn is a tongue-in-cheek “dating scout” that turns LinkedIn searches into collectible trading-card packs. A neon-drenched Vite + React frontend lets you complete a short preference survey, crack open boosted packs of candidates, curate a roster, and even auto-draft slick DMs. A FastAPI backend does the heavy lifting by orchestrating PhantomBuster scrapes, caching results in MongoDB, calling a Hugging Face beauty classifier, and piping everything through Google Gemini for AI-assisted icebreakers.
+
+Built at a hackathon with a team; [@KrishP147](https://github.com/KrishP147) worked on the Gemini integration — profile summaries, conversation starters, and multi-tone draft-DM generation.
 
 ## Core Features
 
@@ -70,9 +74,3 @@ docker compose up --build
 ```
 
 Expose the frontend at `http://localhost:3000` (Nginx) and backend at `http://localhost:8000`. Supply the same environment variables in your shell or a `.env` file so both services can authenticate and share configuration.
-
-## Additional Docs
-
-- `PHANTOMBUSTER_SETUP.md` / `PHANTOMBUSTER_QUICK_START.md` – provisioning tips for PhantomBuster.
-- `PHANTOMBUSTER_CONFIG_FIX.md` – troubleshooting reference for PhantomBuster agents.
-- `DOCKER_INSTRUCTIONS.md` – more detailed container notes.
