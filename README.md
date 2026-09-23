@@ -74,9 +74,3 @@ docker compose up --build
 ```
 
 Expose the frontend at `http://localhost:3000` (Nginx) and backend at `http://localhost:8000`. Supply the same environment variables in your shell or a `.env` file so both services can authenticate and share configuration.
-
-## Additional Docs
-
-- `PHANTOMBUSTER_SETUP.md` / `PHANTOMBUSTER_QUICK_START.md` – provisioning tips for PhantomBuster.
-- `PHANTOMBUSTER_CONFIG_FIX.md` – troubleshooting reference for PhantomBuster agents.
-- `DOCKER_INSTRUCTIONS.md` – more detailed container notes.
